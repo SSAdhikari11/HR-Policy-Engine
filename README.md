@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <h1 align="center">HR Policy Engine</h1>
 
 <p align="center">
@@ -62,7 +68,7 @@ Saturday and Sunday are also counted as leave.
 
 <p>
 🎥 Demo:
-<a href="YOUR_VIDEO_LINK_HERE">Watch Demo</a>
+<a href="YOUR_VIDEO_LINK_HERE](https://github.com/user-attachments/assets/3a8260ba-880f-49f1-b450-2cdae15a5d20">Watch Demo</a>
 </p>
 
 <hr>
@@ -229,23 +235,10 @@ are completed.
 <h2>Installation</h2>
 
 <pre>
-bench get-app https://github.com/YOUR_USERNAME/hr_policy_engine.git
+bench get-app https://github.com/SSAdhikari11/hr_policy_engine.git
 
 bench --site your-site install-app hr_policy_engine
 </pre>
-
-<hr>
-
-<h2>Roadmap</h2>
-
-<ul>
-  <li>Shift-Based Policies</li>
-  <li>Geo-Fencing Attendance Rules</li>
-  <li>Auto Escalation Rules</li>
-  <li>Multi-Level HR Policies</li>
-  <li>Department Specific Rules</li>
-  <li>AI-Powered Attendance Insights</li>
-</ul>
 
 <hr>
 
