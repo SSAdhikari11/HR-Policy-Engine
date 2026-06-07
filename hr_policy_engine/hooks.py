@@ -137,13 +137,16 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Attendance": {
+		"validate": "hr_policy_engine.doc_events.attendance.set_late_minutes",
+		"on_submit": "hr_policy_engine.hr_policy_engine.doctype.hr_policy_engine.apply_attendance_rules"
+	},
+    "Salary Slip": {
+        "before_validate": "hr_policy_engine.doc_events.salary_slip.apply_attendance_policy_deductions",
+        "on_submit": "hr_policy_engine.doc_events.salary_slip.apply_attendance_policy_deductions"
+    }	
+}
 
 # Scheduled Tasks
 # ---------------
@@ -228,6 +231,10 @@ app_license = "mit"
 # 	}
 # ]
 
+fixtures = [
+	{"doctype": "Salary Component"}
+]
+
 # Authentication and authorization
 # --------------------------------
 
@@ -247,3 +254,5 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+#Importing overrides
+import hr_policy_engine.overrides.leave_application
