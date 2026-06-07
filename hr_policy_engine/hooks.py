@@ -138,9 +138,12 @@ app_license = "mit"
 # Hook on document methods and events
 
 doc_events = {
+	"Leave Application": {
+		"on_submit": "hr_policy_engine.doc_events.leave_application.apply_sandwich_rule"
+	},
 	"Attendance": {
 		"validate": "hr_policy_engine.doc_events.attendance.set_late_minutes",
-		"on_submit": "hr_policy_engine.hr_policy_engine.doctype.hr_policy_engine.apply_attendance_rules"
+		"on_submit": "hr_policy_engine.hr_policy_engine.doctype.hr_policy_engine.hr_policy_engine.apply_attendance_rules"
 	},
     "Salary Slip": {
         "before_validate": "hr_policy_engine.doc_events.salary_slip.apply_attendance_policy_deductions",
