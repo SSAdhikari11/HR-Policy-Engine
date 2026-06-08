@@ -69,10 +69,6 @@ Saturday and Sunday are also counted as leave.
 
 <h3>2. Late Entry Count Rule</h3>
 
-<p>
-Deduction will be done based on the number of violations defined in the policy.
-</p>
-
 <pre>
 Allowed Late Entries: 3
 
@@ -80,6 +76,9 @@ Allowed Late Entries: 3
 2nd Late Entry  -> Allowed
 3rd Late Entry  -> Allowed
 4th Late Entry  -> Deduction Applied
+
+Result:
+Deduction will be done based on the number of violations defined in the policy.
 </pre>
 
 <p>
@@ -91,16 +90,15 @@ Allowed Late Entries: 3
 
 <h3>3. Early Exit Count Rule</h3>
 
-<p>
-Deduction will be done based on the number of violations defined in the policy.
-</p>
-
 <pre>
 Allowed Early Exits: 2
 
 1st Exit -> Allowed
 2nd Exit -> Allowed
 3rd Exit -> Deduction Applied
+
+Result:
+No violation recorded. Deduction will be done based on the number of violations defined in the policy.
 </pre>
 
 <p>
