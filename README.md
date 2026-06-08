@@ -74,8 +74,7 @@ Allowed Late Entries: 3
 
 1st Late Entry  -> Allowed
 2nd Late Entry  -> Allowed
-3rd Late Entry  -> Allowed
-4th Late Entry  -> Deduction Applied
+3rd Late Entry  -> Deduction Applied
 
 Result:
 Deduction will be done based on the number of violations defined in the policy.
