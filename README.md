@@ -70,7 +70,7 @@ Saturday and Sunday are also counted as leave.
 <h3>2. Late Entry Count Rule</h3>
 
 <p>
-Defines how many late entries are allowed before deductions begin.
+Deduction will be done based on the number of violations defined in the policy.
 </p>
 
 <pre>
@@ -92,7 +92,7 @@ Allowed Late Entries: 3
 <h3>3. Early Exit Count Rule</h3>
 
 <p>
-Defines how many early exits are allowed before deductions begin.
+Deduction will be done based on the number of violations defined in the policy.
 </p>
 
 <pre>
@@ -126,7 +126,7 @@ Check-Out: 06:00 PM
 Worked Hours: 8
 
 Result:
-No violation recorded.
+No violation recorded. Deduction will be done based on the number of violations defined in the policy.
 </pre>
 
 <p>
@@ -146,7 +146,7 @@ during a month before deductions begin.
 <pre>
 Monthly Allowance: 60 Minutes
 
-Late by 15 mins × 4 times
+Late by 30 mins × 2 times
 
 Total = 60 Minutes
 
@@ -154,12 +154,12 @@ Result:
 No deduction
 
 61st minute onward:
-Deduction starts.
+Deduction will be done based on the number of violations defined in the policy.
 </pre>
 
 <p>
 🎥 Demo:
-<a href="#">Coming Soon</a>
+<a href="#">Watch Demo</a>
 </p>
 
 <hr>
