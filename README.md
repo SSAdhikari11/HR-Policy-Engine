@@ -98,7 +98,7 @@ Allowed Early Exits: 2
 3rd Exit -> Deduction Applied
 
 Result:
-No violation recorded. Deduction will be done based on the number of violations defined in the policy.
+Deduction will be done based on the number of violations defined in the policy.
 </pre>
 
 <p>
