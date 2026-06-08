@@ -1,4 +1,3 @@
-
 <h1 align="center">HR Policy Engine</h1>
 
 <p align="center">
@@ -82,7 +81,7 @@ Deduction will be done based on the number of violations defined in the policy.
 
 <p>
 🎥 Demo:
-<a href="#">Coming Soon</a>
+<a href="https://github.com/user-attachments/assets/1378d131-db5f-4ba2-a0b8-9519a58cf357">Watch Demo</a>
 </p>
 
 <hr>
@@ -102,7 +101,7 @@ Deduction will be done based on the number of violations defined in the policy.
 
 <p>
 🎥 Demo:
-<a href="#">Coming Soon</a>
+<a href="https://github.com/user-attachments/assets/cc537c22-f5c9-48b8-9a86-af26ed5e0cab">Watch Demo</a>
 </p>
 
 <hr>
@@ -156,7 +155,7 @@ Deduction will be done based on the number of violations defined in the policy.
 
 <p>
 🎥 Demo:
-<a href="https://github.com/user-attachments/assets/c0756fe0-68d6-4177-b734-064163270d8d">Watch Demo</a>
+<a href="https://github.com/user-attachments/assets/6f837096-eb03-4466-8322-18c55de18840">Watch Demo</a>
 </p>
 
 <hr>
