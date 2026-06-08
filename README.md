@@ -1,3 +1,4 @@
+
 <h1 align="center">HR Policy Engine</h1>
 
 <p align="center">
@@ -131,7 +132,7 @@ No violation recorded.
 
 <p>
 🎥 Demo:
-<a href="#">Coming Soon</a>
+<a href="https://github.com/user-attachments/assets/d8aad206-6ec6-43d9-92fc-a240d552bdee">Watch Demo</a>
 </p>
 
 <hr>
