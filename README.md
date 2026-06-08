@@ -70,7 +70,7 @@ Saturday and Sunday are also counted as leave.
 <h3>2. Late Entry Count Rule</h3>
 
 <pre>
-Allowed Late Entries: 3
+Allowed Late Entries: 2
 
 1st Late Entry  -> Allowed
 2nd Late Entry  -> Allowed
