@@ -55,7 +55,6 @@ the intervening holidays can also be counted as leave.
 Friday     = Leave
 Saturday   = Holiday
 Sunday     = Holiday
-Monday     = Leave
 
 Result:
 Saturday and Sunday are also counted as leave.
