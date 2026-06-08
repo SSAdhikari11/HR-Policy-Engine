@@ -119,12 +119,12 @@ from late-entry and early-exit penalties.
 </p>
 
 <pre>
-Required Hours: 9
+Required Hours: 8
 
 Check-In: 10:00 AM
-Check-Out: 07:00 PM
+Check-Out: 06:00 PM
 
-Worked Hours: 9
+Worked Hours: 8
 
 Result:
 No violation recorded.
