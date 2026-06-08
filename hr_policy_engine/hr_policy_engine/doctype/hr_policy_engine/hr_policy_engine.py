@@ -517,7 +517,7 @@ def check_daily_hours_fulfillment(attendance, rule):
     deduction_unit = flt(rule.deduction_unit or 1)
 
     worked = attendance.working_hours or 0
-    shortfall = max(0, rule.min_hours_required - worked)
+    shortfall = max(0, rule.minimum_hours_required - worked)
 
     # If requirement met, skip
     if shortfall <= 0:
@@ -532,7 +532,7 @@ def check_daily_hours_fulfillment(attendance, rule):
             "employee": employee,
             "docstatus": 1,
             "attendance_date": ("between", [month_start, att_date]),
-            "working_hours": ("<", rule.min_hours_required),
+            "working_hours": ("<", rule.minimum_hours_required),
         },
     )
 
