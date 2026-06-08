@@ -202,14 +202,6 @@ are completed.
 
 <hr>
 
-<h2>Screenshots</h2>
-
-<h3>HR Policy Configuration</h3>
-
-<img src="screenshots/hr-policy-engine.png" width="900">
-
-<hr>
-
 <h2>Technology Stack</h2>
 
 <ul>
