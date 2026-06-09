@@ -1,7 +1,7 @@
 <h1 align="center">HR Policy Engine</h1>
 
 <p align="center">
-  Advanced HR Rule Automation for ERPNext & Frappe
+  Advanced HR Rule Automation for ERPNext & Frappe 
 </p>
 
 <p align="center">
