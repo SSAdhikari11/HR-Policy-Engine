@@ -9,7 +9,7 @@
   sandwich rules, working-hour compliance, and custom HR governance.
 </p>
 
-<hr>
+<hr> 
 
 <h2>Overview</h2>
 
